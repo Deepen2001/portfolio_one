@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="wrapper">
+            <div class="weather-search-wrap">
+                <input type="text" id="city-input">
+                <button id="search-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        class="vantage--icon-theme-search header__shopping-cart-link--icon test" version="1.1" x="0px"
+                        y="0px" viewBox="0 0 20 20" height="16px" xml:space="preserve">
+                        <g class="hover-fill" fill="var(--header-text-color)">
+                            <path
+                                d="M19.8,19.1l-4.6-4.6c1.4-1.5,2.2-3.6,2.2-5.8c0-4.8-3.9-8.7-8.7-8.7S0,3.9,0,8.7s3.9,8.7,8.7,8.7         c2.2,0,4.2-0.8,5.8-2.2l4.6,4.6c0.2,0.2,0.5,0.2,0.7,0C20.1,19.6,20.1,19.3,19.8,19.1z M1,8.7C1,4.5,4.5,1,8.7,1         c4.2,0,7.7,3.4,7.7,7.7c0,4.2-3.4,7.7-7.7,7.7C4.5,16.4,1,13,1,8.7z" />
+                        </g>
+                        <style>
+                            .header__shopping-cart-link .vantage--icon-theme-search:hover .hover-fill {
+                                fill: var(--header-text-color);
+                            }
+                        </style>
+                    </svg>
+                </button>
+            </div>
+            <div class="weather-output-wrap" style="display: none;">
+                <div class="main-output">
+                    <img src="" alt="" id="main-icon">
+                    <div class="tempr"></div>
+                    <div class="city-name"></div>
+                </div>
+                <div class="other-output">
+                    <div class="col">
+                        <img src="" alt="">
+                        <div>
+                            <p class="humidity"></p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="" alt="">
+                        <div>
+                            <p class="wind"></p>
+                            <p>wind</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+

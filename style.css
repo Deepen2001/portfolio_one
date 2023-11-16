@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    width: 100%;
+}
+#main {
+    background: #eaedff;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    letter-spacing: 2px;
+}
+.wrapper {
+    background: linear-gradient(152deg, rgba(30,255,181,1) 0%, rgba(37,232,188,1) 27%, rgba(47,197,198,1) 60%, rgba(49,143,214,1) 78%, rgba(149,0,255,1) 100%);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.weather-output-wrap {
+    color: #fff;
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.weather-search-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input#city-input {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    outline: none;
+}
+
+button#search-btn {
+    appearance: none;
+    border: none;
+    width: 35px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+svg{
+    width: 12px;
+    height: 12px;
+}
+
+
+.other-output {
+    width: 30%;
+}
+
+.main-output {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px
+}
+
+.main-output img {
+    max-width: 150px;
+    margin-bottom: 30px;
+}
